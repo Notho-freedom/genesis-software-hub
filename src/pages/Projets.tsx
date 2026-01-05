@@ -158,7 +158,7 @@ const Projets = () => {
 
                     <div className="flex gap-3">
                       {project.downloadUrl && (
-                        <Button variant="hero" size="sm" className="flex-1" asChild>
+                        <Button variant="default" size="sm" className="flex-1" asChild>
                           <a href={project.downloadUrl}>
                             <Download className="w-4 h-4" />
                             Télécharger
